@@ -1,5 +1,13 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	.jumbotron
+		h1= title
+		p Welcome to #{title}
+	.container
+		.row
+			.col-sm-2
+			.col-sm-8
+				h2 Webhooks
+				ul.webhooks.
+			.col-sm-2
